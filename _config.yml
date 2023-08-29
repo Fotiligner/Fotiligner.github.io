@@ -309,3 +309,8 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+deploy:
+  type: git
+  repository: https://github.com/Fotiligner/libingqian.github.io.git
+  branch: master
